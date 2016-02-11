@@ -4,7 +4,7 @@ Light class to easily create screenshots within your App.
 You can switch between the older 'layer renderInContext' version or the newer 'drawViewHierarchyInRect' method.
 It also provides methods to return halfs of images in case you want to do some slick animations.
 
-## Installation using Cocoapods
+## Installation using CocoaPods
 ```
 pod 'BDGScreenshot'
 ```
