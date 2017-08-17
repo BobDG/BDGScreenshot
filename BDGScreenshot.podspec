@@ -9,6 +9,6 @@ Pod::Spec.new do |s|
   s.source         = { :git => 'https://github.com/BobDG/BDGScreenshot.git', :tag => '0.0.2' }
   s.source_files   = '*.{h,m}'  
   s.frameworks     = 'Quartzcore'
-  s.platform       = :ios
-  s.requires_arc   = true
+s.platform       	= :ios, '8.0'
+  s.requires_arc   	= true
 end
